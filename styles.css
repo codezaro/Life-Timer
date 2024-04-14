@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url(images/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+
+  width: 100%;
+}
+html,
+body {
+  font-family: "Oswald", sans-serif;
+}
+.contain {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.setting {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 1,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  color: white;
+}
+.setting .material-symbols-outlined {
+  font-size: 3rem;
+}
+.setting_content {
+  display: flex;
+  gap: 1rem;
+}
+.setting_content input {
+  padding: 2px 2.5px;
+  font-size: 15px;
+}
+.setting_content button {
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+.hide {
+  display: none;
+}
+.time_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 1rem;
+}
+.time_container h2 {
+  line-height: 60px;
+  text-align: center;
+  font-size: 2rem;
+}
+.time_container div {
+  font-size: 3rem;
+  color: white;
+}
